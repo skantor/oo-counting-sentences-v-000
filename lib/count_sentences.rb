@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     binding.pry
-    new = self.split('.', '!')
+    new = self.split('.')
     new.count{|x| x != nil}
   end
 end
